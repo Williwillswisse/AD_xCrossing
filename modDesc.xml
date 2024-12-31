@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="93">
+    <author>Willi Willswissen</author>
+	<contributors>AutoDrive Team</contributors>
+    <version>1.0.0.0</version>
+    <title> 
+        <en>AutoDrive-Crossroads</en>
+        <de>AutoDrive-Kreuzung</de>
+    </title>
+    <description>
+        <en> <![CDATA[
+
+Layout for AD X-crossing.
+]]>
+        </en>
+        <de> <![CDATA[
+
+Layout für eine AD-Kreuzung.
+]]>
+        </de>
+    </description>
+    
+    <l10n>
+        <text name="storeItem_xcrossing-3m-line"> <en>AD-Crossing 3m with lines</en> <de>AD-Kreuzung 3m mit Hilfslinien</de> </text>
+        <text name="storeItem_xcrossing-4m-line"> <en>AD-Crossing 4m with lines</en> <de>AD-Kreuzung 4m mit Hilfslinien</de> </text>
+        <text name="storeItem_xcrossing-5m-line"> <en>AD-Crossing 5m with lines</en> <de>AD-Kreuzung 5m mit Hilfslinien</de> </text>
+        <text name="storeItem_xcrossing-6m-line"> <en>AD-Crossing 6m with lines</en> <de>AD-Kreuzung 6m mit Hilfslinien</de> </text>
+    </l10n>
+
+    <multiplayer supported="true"/>
+    <iconFilename>icon_AutoDrive_xCrossing.png</iconFilename>
+
+    <storeItems>
+		<storeItem xmlFilename="xcrossing-3m-line.xml"/>
+		<storeItem xmlFilename="xcrossing-4m-line.xml"/>
+		<storeItem xmlFilename="xcrossing-5m-line.xml"/>
+		<storeItem xmlFilename="xcrossing-6m-line.xml"/>
+    </storeItems>
+	
+	<dependencies>
+		<dependency>FS25_AutoDrive</dependency>
+	</dependencies>
+
+</modDesc>

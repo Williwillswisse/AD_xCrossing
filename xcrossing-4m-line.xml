@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="simplePlaceable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs22/placeable.xsd">
+    <storeData>
+        <name>$l10n_storeItem_xcrossing-4m-line</name>
+        <functions>
+            <function>$l10n_function_decoration</function>
+        </functions>
+        <image>store_xcrossing-4m-line.dds</image>
+        <price>0</price>
+        <dailyUpkeep>0</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <species>placeable</species>
+        <category>misc</category>
+        <brush>
+            <type>placeable</type>
+            <category>decoration</category>
+            <tab>uncategorized</tab>
+        </brush>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <vertexBufferMemoryUsage>256</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>256</indexBufferMemoryUsage>
+        <textureMemoryUsage>786432</textureMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>xcrossing-4m-line.i3d</filename>
+        <boughtWithFarmland>false</boughtWithFarmland>
+        <canBeRenamed>false</canBeRenamed>
+    </base>
+
+    <placement useRandomYRotation="false" useManualYRotation="false" alignToWorldY="false" pos1Node="positionRef1" pos2Node="positionRef2" pos3Node="positionRef3">
+        <testAreas>
+            <testArea startNode="testAreaStart01" endNode="testAreaEnd01" />
+        </testAreas>
+        <sounds>
+            <place template="largeImp" />
+        </sounds>
+    </placement>
+
+    <clearAreas>
+        <clearArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height"/>
+    </clearAreas>
+
+    <leveling requireLeveling="false" maxSmoothDistance="1" maxSlope="75" maxEdgeAngle="30">
+        <levelAreas>
+            <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01" groundType="asphalt"/>
+        </levelAreas>
+    </leveling>
+
+    <indoorAreas>
+        <indoorArea startNode="indoorAreaStart01" widthNode="indoorAreaWidth01" heightNode="indoorAreaHeight01"/>
+    </indoorAreas>
+
+    <tipOcclusionUpdateAreas/>
+
+    <ai>
+        <updateAreas/>
+    </ai>
+
+    <AutoDrive>
+        <waypoints>
+            <id>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29</id>
+            <x>0.000,-2.000,-3.250,-4.500,-7.500,-2.000,-2.000,-2.000,2.000,2.000,2.000,2.000,3.250,4.500,7.500,7.500,4.500,3.250,2.000,2.000,2.000,2.000,-2.000,-2.000,-2.000,-2.000,-3.250,-4.500,-7.500</x>
+            <y>0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000</y>
+            <z>0.000,2.000,2.000,2.000,2.000,3.250,4.500,7.500,7.500,4.500,3.250,2.000,2.000,2.000,2.000,-2.000,-2.000,-2.000,-2.000,-3.250,-4.500,-7.500,-7.500,-4.500,-3.250,-2.000,-2.000,-2.000,-2.000</z>
+            <out>12,26,2,19;6,3,1,12;2,4,6;3;4;7,2;8,6;-1;10;11;12,10,13;13,11,1,19;14,12;15,13;-1;17;18;19,17,20;20,18,1,26;21,19;22,20;-1;24;25;26,24,27;27,25,1,2;28,26;29,27;-1</out>
+            <incoming>26,12,19,2;3,6,1,26;4,2;5,3;-1;2,7,3;6;7;-1;9,11;10,12;11,13,1,2;12,14,11;13;14;-1;16,18;17,19;18,20,1,12;19,21,18;20;21;-1;23,25;24,26;25,27,1,19;26,28,25;27;28</incoming>
+            <flags>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</flags>
+        </waypoints>
+        <mapmarker>
+            <mm1>
+                <id>1.000000</id>
+                <name>xcrossing-4m-line</name>
+                <group>xcrossing</group>
+            </mm1>
+        </mapmarker>
+    </AutoDrive>
+
+    <i3dMappings>
+        <i3dMapping id="clearArea1Start" node="0>0|0" />
+        <i3dMapping id="clearArea1Width" node="0>0|0|0" />
+        <i3dMapping id="clearArea1Height" node="0>0|0|1" />
+        <i3dMapping id="positionRef1" node="0>4|0" />
+        <i3dMapping id="positionRef2" node="0>4|1" />
+        <i3dMapping id="positionRef3" node="0>4|2" />
+        <i3dMapping id="testAreaStart01" node="0>2|0" />
+        <i3dMapping id="testAreaEnd01" node="0>2|0|0" />
+        <i3dMapping id="levelAreaStart01" node="0>1|0" />
+        <i3dMapping id="levelAreaWidth01" node="0>1|0|0" />
+        <i3dMapping id="levelAreaHeight01" node="0>1|0|1" />
+        <i3dMapping id="indoorAreaStart01" node="0>8|0" />
+        <i3dMapping id="indoorAreaWidth01" node="0>8|0|0" />
+        <i3dMapping id="indoorAreaHeight01" node="0>8|0|1" />
+    </i3dMappings>
+</placeable>
