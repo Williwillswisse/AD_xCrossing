@@ -17,6 +17,7 @@ Verlasst ihr nach der Platzierung das Baumenü, werden die Wegpunkte einer AD Kr
 Ihr könnt diese dann mit eurem Streckennetz verbinden. Das gelbe Kreuz kann über des Baumenü wieder verkauft werden.
 Die Zielpunkte der Kreuzungen solltet ihr nach Fertigstellung der Routen wieder löschen, da sie sonst Einfluss auf die Wegberechnung
 von AutoDrive haben. Zur Erstellung der Routen sind sie ganz nützlich, da sich so mit AutoDrive jede Kreuzung direkt anfahren läßt.
+Ihr braucht einen Mod, der das platzieren auf Land erlaubt, das euch nicht gehört.
 
 ## Placeable Crossings (separate mod)
 With this mod you can build a finished AD intersection on the map.
@@ -26,3 +27,6 @@ If you leave the construction menu after placing them, the waypoints of an AD in
 You can then connect these to your route network. The yellow cross can be sold again via the construction menu.
 You should delete the destination points of the intersections again after completing the routes, otherwise they will influence the route calculation
 by AutoDrive. They are very useful for creating routes, as they allow you to drive directly to every intersection with AutoDrive.
+You need a mod that allows placement on land that does not belong to you.
+
+![image](https://github.com/user-attachments/assets/4b04a868-51ee-491c-bf29-bb20d5d7424a)
