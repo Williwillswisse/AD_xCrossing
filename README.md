@@ -5,6 +5,9 @@ FS25 version of the FS25_AutoDrive_xCrossing mod
 ![GitHub all releases](https://img.shields.io/github/downloads/Williwillswisse/AD_xCrossing/total?label=Downloads&style=plastic)  
 Direct Download: https://github.com/Williwillswisse/AD_xCrossing/releases/latest/download/FS25_AutoDrive_xCrossing.zip
 
+## Tutorial Video (German):
+https://youtu.be/fyLikv3C4Mw
+
 ## Discord Server:
 For help & support, feel free to join us on Discord: 
 https://discord.gg/2XfnM59DFy
