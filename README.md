@@ -34,3 +34,6 @@ by AutoDrive. They are very useful for creating routes, as they allow you to dri
 You need a mod that allows placement on land that does not belong to you.
 
 ![image](https://github.com/user-attachments/assets/4b04a868-51ee-491c-bf29-bb20d5d7424a)
+
+![image](https://github.com/user-attachments/assets/bd9cb7b9-4b20-410a-a60f-168cbe653299)
+
