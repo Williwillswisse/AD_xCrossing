@@ -21,7 +21,7 @@ Verlasst ihr nach der Platzierung das Baumenü, werden die Wegpunkte einer AD Kr
 Ihr könnt diese dann mit eurem Streckennetz verbinden. Das gelbe Kreuz kann über des Baumenü wieder verkauft werden.
 Die Zielpunkte der Kreuzungen solltet ihr nach Fertigstellung der Routen wieder löschen, da sie sonst Einfluss auf die Wegberechnung
 von AutoDrive haben. Zur Erstellung der Routen sind sie ganz nützlich, da sich so mit AutoDrive jede Kreuzung direkt anfahren läßt.
-Ihr braucht einen Mod, der das platzieren auf Land erlaubt, das euch nicht gehört.
+Ihr braucht einen Mod, der das Platzieren auf Land erlaubt, das euch nicht gehört.
 
 ## Placeable Crossings (separate mod)
 With this mod you can build a finished AD intersection on the map.
