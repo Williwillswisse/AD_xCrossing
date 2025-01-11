@@ -53,7 +53,7 @@
       </TransformGroup>
       <TransformGroup name="tipCollision" clipDistance="300" nodeId="32"/>
       <TransformGroup name="visuals" clipDistance="300" nodeId="33">
-        <Shape name="plane" translation="0 1.25 0" shapeId="1" static="true" collisionFilterGroup="0x40000" collisionFilterMask="0x40000" clipDistance="300" nodeId="34" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="9"/>
+        <Shape name="plane" translation="0 1.25 0" shapeId="1" static="true" collisionFilterGroup="0x10000000" collisionFilterMask="0x10000000" clipDistance="300" nodeId="34" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="9"/>
         <Shape name="cube" translation="0 0 4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="35" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="7"/>
         <Shape name="cube" translation="4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="36" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="7"/>
         <Shape name="cube" translation="0 0 -4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="37" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="7"/>
@@ -173,10 +173,10 @@
         </TransformGroup>
       </TransformGroup>
       <TransformGroup name="collisions" clipDistance="300" nodeId="132"/>
-      <TransformGroup name="indoorAreas" nodeId="134">
-        <TransformGroup name="indoorAreaStart01" nodeId="136">
-          <TransformGroup name="indoorAreaWidth01" nodeId="137"/>
-          <TransformGroup name="indoorAreaHeight01" nodeId="135"/>
+      <TransformGroup name="indoorAreas" nodeId="133">
+        <TransformGroup name="indoorAreaStart01" nodeId="134">
+          <TransformGroup name="indoorAreaWidth01" nodeId="135"/>
+          <TransformGroup name="indoorAreaHeight01" nodeId="136"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>

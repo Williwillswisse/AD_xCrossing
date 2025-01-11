@@ -2,7 +2,7 @@
 <modDesc descVersion="93">
     <author>Willi Willswissen</author>
 	<contributors>AutoDrive Team</contributors>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title> 
         <en>AutoDrive-Crossroads</en>
         <de>AutoDrive-Kreuzung</de>
@@ -11,11 +11,21 @@
         <en> <![CDATA[
 
 Layout for AD X-crossing.
+
+Changelog:
+V1.0.0.1
+- changed collision mask
+
 ]]>
         </en>
         <de> <![CDATA[
 
 Layout für eine AD-Kreuzung.
+Changelog:
+
+V1.0.0.1
+- geänderte Kollisions-Maske
+
 ]]>
         </de>
     </description>
@@ -36,9 +46,4 @@ Layout für eine AD-Kreuzung.
 		<storeItem xmlFilename="xcrossing-5m-line.xml"/>
 		<storeItem xmlFilename="xcrossing-6m-line.xml"/>
     </storeItems>
-	
-	<dependencies>
-		<dependency>FS25_AutoDrive</dependency>
-	</dependencies>
-
 </modDesc>
