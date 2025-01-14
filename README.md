@@ -6,6 +6,10 @@ FS25 version of the FS25_AutoDrive_xCrossing mod
 
 Direct Download: https://github.com/Williwillswisse/AD_xCrossing/releases/latest/download/FS25_AutoDrive_xCrossing.zip
 
+Version (only zip-File) for left-hand traffic (RHD)
+
+Direct Download: https://github.com/Williwillswisse/AD_xCrossing/releases/latest/download/FS25_AutoDrive_xCrossing_RHD.zip
+
 ## Tutorial Video (German):
 https://youtu.be/fyLikv3C4Mw
 
